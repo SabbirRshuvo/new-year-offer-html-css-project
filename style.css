@@ -276,6 +276,7 @@ height: 616px;
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 margin: 0 auto;
+
 }
 
 .subcribe-details{
@@ -319,4 +320,34 @@ margin: 0 auto;
     border: none;
     cursor: pointer;
     outline: none;
+}
+/* footer */
+footer{
+    margin-top: 120px;
+}
+.footer{
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1320px;
+    min-height: 300px;
+background: rgba(0, 0, 0, 0.226);
+background-blend-mode: overlay;
+margin: 0 auto;
+color: white;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+padding: 160px 0;
+}
+.social-icons {
+    gap: 15px;
+    display: flex;
+}
+.footer .call{
+display: flex;
+}
+.footer .scan{
+    margin: 10px 0;
+    display: flex;
 }
