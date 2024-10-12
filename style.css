@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     background-image: url('images/Banner\ Image.png');
+    border-radius: 16px;
 }
 .banner-content{
     color: white;
