@@ -7,6 +7,34 @@
 
 body{
     font-family: "Merriweather", serif;
+}
+
+/* banner section style */
+.banner-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url('images/Banner\ Image.png');
+}
+.banner-content{
+    color: white;
+    text-align: center;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+}
+.banner-content p{
+    font-size: 32px;
     font-weight: 400;
-    font-style: normal;
+    line-height: 40px;
+}
+.banner-content h1{
+    font-size: 72px;
+font-weight: 900;
+line-height: 95px
 }
