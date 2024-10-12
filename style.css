@@ -38,3 +38,160 @@ body{
 font-weight: 900;
 line-height: 95px
 }
+
+/* main container section work here */
+.main-container{
+    max-width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.main-content{
+    text-align: center;
+}
+.main-content h1{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+    color: red;
+}
+.main-content p{
+    font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+color: red;
+margin-bottom: 16px;
+text-transform: uppercase;
+}
+.main-content h2{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+margin-bottom: 48px;
+}
+
+/* welcome banner section */
+.welcome-banner{
+    background-image: url('images/Vectorrr.png');
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+}
+.welcome-content{
+    color: white;
+    padding: 126px;
+    width: 642px;
+height: 176px;
+}
+.welcome-content h1{
+    font-size: 44px;
+line-height: 60px;
+letter-spacing: 11%;
+text-align: left;
+}
+.welcome-content p{
+    margin: 20px 0;
+    font-size: 16px;
+line-height: 30px;
+opacity: 0.6;
+}
+.welcome-content span{
+    text-transform: uppercase;
+    font-size: 18px;
+line-height: 22px;
+cursor: pointer;
+padding: 5px 10px;
+}
+/* booking section */
+.booking-section{
+    border: 2px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.booking-details{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.booking-details span{
+    color: red;
+}
+.booking-details button{
+    margin-top: 48px;
+    padding: 12px 28px 12px 28px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    font-size: 16px;
+text-transform: uppercase;
+color: white;
+cursor: pointer;
+border: none;
+}
+
+/* deals section */
+
+.deals-section{
+    margin: 120px auto;
+width: 1320px;
+height: 463px;
+border: 2px solid red;
+border-radius: 16px;
+}
+.deals-offer{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.deals{
+    width: 30%;
+}
+.deals h2{
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: red;
+}
+.deals span{
+    font-size: 35px;
+    font-weight: 900;
+line-height: 50px;
+}
+.deals p{
+    padding: 20px 0;
+    font-size: 16px;
+line-height: 25px;
+opacity: 0.6;
+}
+.deals-banner{
+    width: 30%;
+}
+.offer{
+    width: 30%;
+    margin-left: 118px;
+}
+.offer span{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: red;
+}
+.offer p{
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.6;
+}
